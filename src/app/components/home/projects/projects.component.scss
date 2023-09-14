@@ -1,0 +1,196 @@
+@import "./../../../../variables.scss";
+
+.projects {
+  .project-container {
+    height: 360px;
+    margin: 100px 0;
+
+    .project-info-left {
+      width: 50%;
+      margin-right: -57px;
+      margin-left: 0px;
+      display: table;
+    }
+
+    .project-info-right {
+      width: 50%;
+      margin-left: -57px;
+      margin-right: 0px;
+      display: table;
+    }
+
+    .project-box {
+      display: table-cell;
+      vertical-align: middle;
+
+      .feature-project {
+        font-size: 13px;
+        font-weight: normal;
+        color: var(--yellowColor);
+        font-family: $CodeFont;
+        margin-top: 10px;
+        padding-top: 0;
+      }
+      .project-name {
+        font-size: 28px;
+        margin: 0 0 20px;
+        color: var(--slateColor);
+      }
+      .project-description-box {
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        -moz-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        position: relative;
+        z-index: 2;
+        padding: 25px;
+        background-color: var(--primaryLightColor);
+        font-size: 18px;
+        border-radius: 3px;
+
+      }
+      .project-skills {
+        position: relative;
+        z-index: 2;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        padding: 0;
+        margin: 25px 0 10px;
+        list-style: none;
+        li {
+          margin-right: 0;
+          font-family: $CodeFont;
+          font-size: 13px;
+          color: var(--slateColor);
+          margin-bottom: 7px;
+          white-space: nowrap;
+          .technology {
+            padding-bottom: 5px;
+          }
+        }
+      }
+      .project-links {
+        margin-top: 10px;
+        i {
+          font-size: 22px;
+        }
+      }
+
+    }
+  }
+}
+
+.owl-carousel-o {
+    width: 600px;
+}
+.img-feature-project-container {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 1300px) {
+  .owl-carousel-o {
+    display: none;
+  }
+  .img-feature-project-container {
+    width: 50%;
+    display: table !important;
+    height: auto;
+    .img-feature-project-box {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .img-feature-project {
+      width: 100%;
+    }
+  }
+  .project-info-left,
+  .project-info-right {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .project-info-left,
+  .project-info-right {
+    background-image: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .owl-carousel-o {
+    display: none;
+  }
+  .projects {
+    .project-container {
+      height: 100% !important;
+      margin: 33px 0 !important;
+      .project-info-left, .project-info-right {
+        width: 100%;
+        display: block !important;
+        margin: 0px !important;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 3px;
+        .project-box {
+          display: block;
+        }
+      }
+      .img-feature-project-container {
+        display: none;
+      }
+      .project-description-box {
+        padding: 0px !important;
+        box-shadow: none !important;
+        position: relative;
+        z-index: 2;
+        padding: 25px;
+        background-color: transparent !important;
+        color: var(--slateLightColor);
+        font-size: 18px;
+        border-radius: 3px;
+      }
+    }
+    .project-info-left, .project-info-right {
+      padding: 0px;
+    }
+    .text-left, .text-right{
+      text-align: center !important;
+    }
+    .justify-content-start, .justify-content-end {
+      justify-content: center !important;
+    }
+    .project-info-left .project-box,
+    .project-info-right .project-box {
+      padding: 20px;
+      background: var(--slateLightColor);
+    }
+  }
+}
+
+
+::ng-deep .owl-theme .owl-dots .owl-dot.active span,
+::ng-deep .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: white !important;
+}
+
+::ng-deep .owl-theme .owl-dots .owl-dot span {
+  background: #ffffff33;
+}
+
+.img-container {
+  width: 600px;
+  max-height: 320px;
+  overflow: auto;
+  border-radius: 3px;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+

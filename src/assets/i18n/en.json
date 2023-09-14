@@ -1,0 +1,144 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "heinhtetaung-developer-resume.pdf",
+
+    "Banner.Intro": "Hello! My name is",
+    "Banner.Description": "I have <span class='underline'>2 years of dedicated experience</span> in the field of Java development, where I've been passionate about crafting exceptional solutions to enhance the web environment. I am committed to crafting and optimizing pristine, resuable, and highly scalable code with the realms of <span class='underline'>Java</span>, <span class='underline'>Spring</span>, and <span class='underline'>Angular.</span>",
+
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "I bring a strong foundation in <span class='underline'>Java backend development</span>, with a proven track record of developing <span class='underline'>core insurance system</span> using Java and the Spring framework.",
+        "Additionally, I specialize in claim management system and have successfully delivered API projects that integrate seamlessly with <span class='underline'>websites and mobile applications </span>.",
+        "My dedication to creating innovative technological solutions is fueled by a deep commitment to enhancing user experiences and contributing to the success of businesses."
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [{
+            "Tab": "Project",
+            "Title": "Java developer",
+            "Date": "June 2022 - Present",
+            "Description": [
+              "Experienced in developing applications using Core Java, Spring Boot, Spring MVC, Hibernate, Prime faces Framework, HTML, CSS, jQuery, Thyme leaf, Microsoft SQL Server, Oracle Database.",
+              "Experienced in working on cross-functionality projects and have a working experience of using CI/CD Pipeline.",
+              "Implementation of continuous integration and daily backups.",
+              "Experience in working on high volume databases and optimizing database using Stored Procedures, Cursors and Jobs.",
+              "Developed micro-services for applications using Docker Containers and Caching it with different configuration."
+            ]
+        },
+        {
+            "Tab": "Freelancer",
+            "Title": "Java Developer",
+            "Date": "August 2023 - Present",
+            "Description": [
+              "Implementing continuous improvements, working on frontend and backend.",
+              "Creating platforms with Angular, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
+              "Automation of processes with data structures.",
+              "Design layout with SASS, Bootstrap, Materialize, etc."
+            ]
+        },
+        {
+            "Tab": "Intern",
+            "Title": "Java Intern",
+            "Date": "February 2022 - June 2022",
+            "Description": [
+              "Built and maintained scalable and secure web applications.",
+              "Designed and implemented custom CMS solutions to meet clients' unique requirements, resulting in increased efficiency and user engagement.",
+              "Writing weekly reports about goals and plans."
+            ]
+        }
+
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [{
+            "Title": "User Management Portal",
+            "Description": "User Management Portal System built with <span class='underline'>Spring Boot</span> and <span class='underline'>Angular</span> Using <span class='underline'>JSON Web Token (JWT)</span>. This system covered <span class='underline'>Brute Force Attack</span>, implemented email notification, authentication and authorization services.",
+            "imgs": [
+                "assets/images/user-management-portal/ump-1.png",
+                "assets/images/user-management-portal/ump-2.png"
+            ],
+            "Technologies": ["Spring Boot", "Angular", "SASS", "JWT", "Microsoft SQL server","RxJS"]
+        },
+        {
+            "Title": "Monster University",
+            "Description": "Discover, engage, and connect within our <span class='underline'>University Blog and Event Platform</span>. Explore insightful blogs, RSVP for exciting events, and access program listings—all in one user-friendly space. Stay informed and be an active part of our university community.",
+            "imgs": [
+                "assets/images/monster-university/monster-1.png",
+                "assets/images/monster-university/monster-2.png",
+                "assets/images/monster-university/monster-3.png",
+                "assets/images/monster-university/monster-4.png"
+            ],
+            "Technologies": ["Spring Boot", "Thymeleaf", "Tailwind", "Bootstrap"]
+        },
+        {
+            "Title": "Home Appliance Rental System",
+            "Description": "The Home Appliance Rental System is a C# desktop application that simplifies household appliance rentals. It includes features like <span class='underline'>inventory management</span>, customer registration, order processing.",
+            "imgs": [
+                "assets/images/appliance/appliance-1.png",
+                "assets/images/appliance/appliance-2.png",
+                "assets/images/appliance/appliance-3.png",
+                "assets/images/appliance/appliance-4.png",
+                "assets/images/appliance/appliance-5.png"
+            ],
+            "Technologies": ["C#", "Windows Forms", "Entity Framework", "Version Control", "Agile"]
+        },
+        {
+            "Title": "Space X",
+            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
+            "imgs": ["assets/images/spacex.jpg"],
+            "ghLink": "https://github.com/heinhtetaungms",
+            "demoLink": "https://github.com/heinhtetaungms",
+            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+        },
+        {
+            "Title": "Blog",
+            "Description": "Blog Platform built with spring boot and angular using RxJS.",
+            "imgs": ["assets/images/knight.jpg"],
+            "ghLink": "https://github.com/heinhtetaungms",
+            "demoLink": "https://github.com/heinhtetaungms",
+            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Chat App",
+            "Description": "Performance is critical for any application and so dealing with real-time data is a true challenge for any developer. ",
+            "ghLink": "https://github.com/heinhtetaungms",
+            "demoLink": "https://github.com/heinhtetaungms",
+            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+        },
+        {
+            "Title": "Video clips sharing service",
+            "Description": "Some of the skills you can pick up are:\n\n    Manage user registration/authentication\n    Handle file uploads\n    Communicating with an API with HTTP requests\n    Loading large amounts of data by using infinite scrolling/pagination\n",
+            "ghLink": "https://github.com/heinhtetaungms",
+            "demoLink": "https://github.com/heinhtetaungms",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Note App",
+            "Description": "Learn to build a notepad app with animated UI and full CRUD capabilities.",
+            "ghLink": "https://github.com/heinhtetaungms",
+            "demoLink": "https://github.com/heinhtetaungms",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+
+
+}
