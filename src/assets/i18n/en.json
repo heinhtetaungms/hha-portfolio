@@ -69,19 +69,74 @@
             "Technologies": ["Spring Boot", "Angular", "SASS", "JWT", "Microsoft SQL server","RxJS"]
         },
         {
-            "Title": "Monster University",
-            "Description": "Discover, engage, and connect within our <span class='underline'>University Blog and Event Platform</span>. Explore insightful blogs, RSVP for exciting events, and access program listings—all in one user-friendly space. Stay informed and be an active part of our university community.",
-            "imgs": [
-                "assets/images/monster-university/monster-1.png",
-                "assets/images/monster-university/monster-2.png",
-                "assets/images/monster-university/monster-3.png",
-                "assets/images/monster-university/monster-4.png"
-            ],
-            "Technologies": ["Spring Boot", "Thymeleaf", "Tailwind", "Bootstrap"]
+          "Title": "Custom Search Engine Integration Web Application",
+          "Description": "Create a web application that integrates the <span class='underline'>Google Custom Search API</span>, enabling users to perform <span class='underline'>advanced searches</span> and save their search history. This application provides user management, search functionality, and administrator features. Users can securely register, log in, save and load their search history, while administrators can access user information and system logs. The project emphasizes the seamless integration of the Google Custom Search API to deliver search results.",
+          "imgs": [
+            "assets/images/snu_search/1.PNG",
+            "assets/images/snu_search/2.PNG",
+            "assets/images/snu_search/3.PNG",
+            "assets/images/snu_search/4.PNG",
+            "assets/images/snu_search/5.PNG",
+            "assets/images/snu_search/6.PNG",
+            "assets/images/snu_search/7.PNG",
+            "assets/images/snu_search/8.PNG"
+          ],
+          "ghLink": "https://github.com/heinhtetaungms",
+          "demoLink": "https://github.com/heinhtetaungms",
+          "Technologies": ["Java", "RESTful API", "Google Custom Search API", "HTTP Server Module"]
         },
         {
-            "Title": "Home Appliance Rental System",
-            "Description": "The Home Appliance Rental System is a C# desktop application that simplifies household appliance rentals. It includes features like <span class='underline'>inventory management</span>, customer registration, order processing.",
+          "Title": "Product Price Comparison Application",
+          "Description": "Crafted as part of the 'Application Development using Microservices and Serverless' course, my Product Price Comparison Application is a user-friendly solution for price-conscious shoppers. It leverages <span class='underline'>the power of microservices and serverless computing</span> to deliver real-time product and dealer information.",
+          "imgs": [
+            "assets/images/dealer_evaluation/1_product_details_deploy.png",
+            "assets/images/dealer_evaluation/2_dealer_details_deploy.png",
+            "assets/images/dealer_evaluation/3_git_clone.png",
+            "assets/images/dealer_evaluation/4_index_urlchanges.png",
+            "assets/images/dealer_evaluation/5_frontend_deploy.png",
+            "assets/images/dealer_evaluation/6_homepage.png",
+            "assets/images/dealer_evaluation/7_product_dealer.png",
+            "assets/images/dealer_evaluation/8_product_dealer_price.png",
+            "assets/images/dealer_evaluation/9_product_all_dealers_prices.png"
+          ],
+          "ghLink": "https://github.com/heinhtetaungms/guestbook",
+          "Technologies": ["Node.js", "Python", "IBM Code Engine", "Docker"]
+        },
+        {
+          "Title": "Guest Book",
+          "Description": "The application consists of a web front end which will have a text input where you can enter any text and submit. For all of these we will create  <span class='underline'>Kubernetes Deployments and Pods</span>. Then we will apply Horizontal Pod Scaling to the Guestbook application and finally work on  <span class='underline'>Rolling Updates and Rollbacks</span>.",
+          "imgs": [
+            "assets/images/django_onlinecourse/onlinecourse_app_er.png",
+            "assets/images/django_onlinecourse/1_onlinecourse.PNG",
+            "assets/images/django_onlinecourse/2_question.PNG",
+            "assets/images/django_onlinecourse/3_result.PNG",
+            "assets/images/django_onlinecourse/4_admin_course.PNG",
+            "assets/images/django_onlinecourse/5_admin_lessons.PNG",
+            "assets/images/django_onlinecourse/6_admin_question.PNG",
+            "assets/images/django_onlinecourse/7_admin_user.PNG"
+          ],
+          "ghLink": "https://github.com/heinhtetaungms/guestbook",
+          "Technologies": ["Docker", "Kubernetes", "OpenShift"]
+        },
+        {
+          "Title": "Online Course Assessment Feature",
+          "Description": "In this <span class='underline'>full-stack development project</span>, I had the opportunity to design and implement a <span class='underline'>new course assessment feature</span> for an online course application. My responsibilities encompassed understanding feature requirements, creating essential models, enhancing templates, and developing views to ensure a seamless and robust user experience. This project allowed me to apply my skills in <span class='underline'>Django</span>, full-stack development, and user-focused design to contribute a valuable feature to the application.",
+          "imgs": [
+            "assets/images/django_onlinecourse/onlinecourse_app_er.png",
+            "assets/images/django_onlinecourse/1_onlinecourse.PNG",
+            "assets/images/django_onlinecourse/2_question.PNG",
+            "assets/images/django_onlinecourse/3_result.PNG",
+            "assets/images/django_onlinecourse/4_admin_course.PNG",
+            "assets/images/django_onlinecourse/5_admin_lessons.PNG",
+            "assets/images/django_onlinecourse/6_admin_question.PNG",
+            "assets/images/django_onlinecourse/7_admin_user.PNG"
+          ],
+          "ghLink": "https://github.com/heinhtetaungms/guestbook",
+          "Technologies": ["Python", "Django", "SQLite", "Django Admin Site"]
+        },
+        {
+            "Title": "SmartHome Rental Manager - Streamlining Household Appliance Rentals",
+            "Description": "The SmartHome Rental Manager is a feature-rich C# desktop application designed to revolutionize the household appliance rental experience. Our intuitive and user-friendly system simplifies the entire process, making appliance rentals a breeze. Key features include:<span class='underline'>Inventory Management</span>, <span class='underline'>Customer Registration</span>, <span class='underline'>Order Processing</span>.",
             "imgs": [
                 "assets/images/appliance/appliance-1.png",
                 "assets/images/appliance/appliance-2.png",
@@ -89,23 +144,7 @@
                 "assets/images/appliance/appliance-4.png",
                 "assets/images/appliance/appliance-5.png"
             ],
-            "Technologies": ["C#", "Windows Forms", "Entity Framework", "Version Control", "Agile"]
-        },
-        {
-            "Title": "Space X",
-            "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
-            "imgs": ["assets/images/spacex.jpg"],
-            "ghLink": "https://github.com/heinhtetaungms",
-            "demoLink": "https://github.com/heinhtetaungms",
-            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
-        },
-        {
-            "Title": "Blog",
-            "Description": "Blog Platform built with spring boot and angular using RxJS.",
-            "imgs": ["assets/images/knight.jpg"],
-            "ghLink": "https://github.com/heinhtetaungms",
-            "demoLink": "https://github.com/heinhtetaungms",
-            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+            "Technologies": ["C#", "Windows Forms","Entity Framework", "Version Control"]
         }
     ],
 
